@@ -6,6 +6,7 @@ import SmoothScroll from 'smooth-scroll'
 import BootstrapCarousel from './components/BootstrapCarousel';
 import  Navigation from './components/Navigation';
 import ProductCatagoryComponent from './components/ProductCatagoryComponent';
+import { ContactComponent } from './components/ContactComponent';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -19,6 +20,8 @@ function App() {
       <BootstrapCarousel></BootstrapCarousel>
       <br></br>
       <ProductCatagoryComponent></ProductCatagoryComponent>
+      <br></br>
+      <ContactComponent></ContactComponent>
     </div>
   );
 }

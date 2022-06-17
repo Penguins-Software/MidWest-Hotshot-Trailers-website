@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect} from 'react'
+import React, { Component } from 'react'
 
 import Container from 'react-bootstrap/Container'
 // import "./ProductCatagoryComponent.css"
@@ -18,7 +18,7 @@ export default class ProductCatagoryComponent extends Component {
         return(
             
             <div id='products' >
-                <h1>Product Catagory</h1>
+                <h1 className="display-4 text-center">Product Catagory</h1>
 
                 <div className="row no-gutters">
                     <Container fluid >
