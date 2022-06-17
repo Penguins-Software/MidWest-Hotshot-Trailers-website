@@ -8,9 +8,9 @@ export default class Navigation extends Component {
   render() {
     return(
       <div>
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" fixed="top" >
           <Container>
-            <Navbar.Brand href="#home">Midwest Hotshot Trailers</Navbar.Brand>
+            <Navbar.Brand href="#home" className='page-scroll'>Midwest Hotshot Trailers</Navbar.Brand>
             <Nav >
               <Nav.Link href="#products" className='page-scroll'>Products</Nav.Link>
               <Nav.Link href="#contact" className='page-scroll'>Contact</Nav.Link>
