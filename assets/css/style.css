@@ -917,9 +917,11 @@ section {
 }
 #portfolio .portfolio-item .portfolio-info h4 a {
   color: #333;
+  font-size: 14px;
 }
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
   color: #18d26e;
+  font-size: 14px;
 }
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
