@@ -904,9 +904,14 @@ section {
 #portfolio .portfolio-item .portfolio-info {
   background: #fff;
   text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   padding: 30px;
   height: 90px;
   border-radius: 0 0 3px 3px;
+  display: block;
+  width: 100%;
 }
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
